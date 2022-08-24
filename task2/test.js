@@ -6,10 +6,10 @@ let highest = 0;
 
 //Write a for loop
 for(let i=0; i<numbers.length; i++){
+//Use an if statement to check for highest number
     if (numbers[i] > highest){
         highest = numbers[i]
     }
 } 
-
 //Use the alert command
 alert(`output: ${largest}`);
